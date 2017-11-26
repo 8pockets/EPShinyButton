@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BB06271FCB3F8400B5394D /* EPShinyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */; };
+		39BB062C1FCB3F8400B5394D /* EPShinyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */; };
+		39BB062E1FCB3F8400B5394D /* EPShinyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB06201FCB3F8400B5394D /* EPShinyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39BB06281FCB3F8400B5394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BB06141FCB3F8400B5394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BB061C1FCB3F8400B5394D;
+			remoteInfo = EPShinyButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPShinyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BB06201FCB3F8400B5394D /* EPShinyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPShinyButton.h; sourceTree = "<group>"; };
+		39BB06211FCB3F8400B5394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPShinyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPShinyButtonTests.swift; sourceTree = "<group>"; };
+		39BB062D1FCB3F8400B5394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BB06191FCB3F8400B5394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06231FCB3F8400B5394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB06271FCB3F8400B5394D /* EPShinyButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BB06131FCB3F8400B5394D = {
+			isa = PBXGroup;
+			children = (
+				39BB061F1FCB3F8400B5394D /* EPShinyButton */,
+				39BB062A1FCB3F8400B5394D /* EPShinyButtonTests */,
+				39BB061E1FCB3F8400B5394D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39BB061E1FCB3F8400B5394D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */,
+				39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BB061F1FCB3F8400B5394D /* EPShinyButton */ = {
+			isa = PBXGroup;
+			children = (
+				39BB06201FCB3F8400B5394D /* EPShinyButton.h */,
+				39BB06211FCB3F8400B5394D /* Info.plist */,
+			);
+			path = EPShinyButton;
+			sourceTree = "<group>";
+		};
+		39BB062A1FCB3F8400B5394D /* EPShinyButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */,
+				39BB062D1FCB3F8400B5394D /* Info.plist */,
+			);
+			path = EPShinyButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39BB061A1FCB3F8400B5394D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB062E1FCB3F8400B5394D /* EPShinyButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39BB061C1FCB3F8400B5394D /* EPShinyButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB06311FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButton" */;
+			buildPhases = (
+				39BB06181FCB3F8400B5394D /* Sources */,
+				39BB06191FCB3F8400B5394D /* Frameworks */,
+				39BB061A1FCB3F8400B5394D /* Headers */,
+				39BB061B1FCB3F8400B5394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPShinyButton;
+			productName = EPShinyButton;
+			productReference = 39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39BB06251FCB3F8400B5394D /* EPShinyButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB06341FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonTests" */;
+			buildPhases = (
+				39BB06221FCB3F8400B5394D /* Sources */,
+				39BB06231FCB3F8400B5394D /* Frameworks */,
+				39BB06241FCB3F8400B5394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB06291FCB3F8400B5394D /* PBXTargetDependency */,
+			);
+			name = EPShinyButtonTests;
+			productName = EPShinyButtonTests;
+			productReference = 39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BB06141FCB3F8400B5394D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = 8pockets;
+				TargetAttributes = {
+					39BB061C1FCB3F8400B5394D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					39BB06251FCB3F8400B5394D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 39BB06171FCB3F8400B5394D /* Build configuration list for PBXProject "EPShinyButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39BB06131FCB3F8400B5394D;
+			productRefGroup = 39BB061E1FCB3F8400B5394D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39BB061C1FCB3F8400B5394D /* EPShinyButton */,
+				39BB06251FCB3F8400B5394D /* EPShinyButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BB061B1FCB3F8400B5394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06241FCB3F8400B5394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BB06181FCB3F8400B5394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06221FCB3F8400B5394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB062C1FCB3F8400B5394D /* EPShinyButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39BB06291FCB3F8400B5394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BB061C1FCB3F8400B5394D /* EPShinyButton */;
+			targetProxy = 39BB06281FCB3F8400B5394D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39BB062F1FCB3F8400B5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39BB06301FCB3F8400B5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39BB06321FCB3F8400B5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EPShinyButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BB06331FCB3F8400B5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = EPShinyButton/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39BB06351FCB3F8400B5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BB06361FCB3F8400B5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BB06171FCB3F8400B5394D /* Build configuration list for PBXProject "EPShinyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB062F1FCB3F8400B5394D /* Debug */,
+				39BB06301FCB3F8400B5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BB06311FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB06321FCB3F8400B5394D /* Debug */,
+				39BB06331FCB3F8400B5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BB06341FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB06351FCB3F8400B5394D /* Debug */,
+				39BB06361FCB3F8400B5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BB06141FCB3F8400B5394D /* Project object */;
+}
