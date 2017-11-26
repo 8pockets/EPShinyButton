@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		390803501FCB3A9B00D1BC32 /* EPShinyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3908034F1FCB3A9B00D1BC32 /* EPShinyButton.swift */; };
 		397586E51FCB338A0004A74F /* EPShinyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397586DB1FCB338A0004A74F /* EPShinyButton.framework */; };
 		397586EA1FCB338A0004A74F /* EPShinyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397586E91FCB338A0004A74F /* EPShinyButtonTests.swift */; };
 		397586EC1FCB338A0004A74F /* EPShinyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 397586DE1FCB338A0004A74F /* EPShinyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3908034F1FCB3A9B00D1BC32 /* EPShinyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EPShinyButton.swift; path = Classes/EPShinyButton.swift; sourceTree = SOURCE_ROOT; };
 		397586DB1FCB338A0004A74F /* EPShinyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPShinyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		397586DE1FCB338A0004A74F /* EPShinyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPShinyButton.h; sourceTree = "<group>"; };
 		397586DF1FCB338A0004A74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +55,7 @@
 		397586D11FCB338A0004A74F = {
 			isa = PBXGroup;
 			children = (
-				397586DD1FCB338A0004A74F /* EPShinyButton */,
+				397586DD1FCB338A0004A74F /* Classes */,
 				397586E81FCB338A0004A74F /* EPShinyButtonTests */,
 				397586DC1FCB338A0004A74F /* Products */,
 			);
@@ -68,12 +70,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		397586DD1FCB338A0004A74F /* EPShinyButton */ = {
+		397586DD1FCB338A0004A74F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				397586DE1FCB338A0004A74F /* EPShinyButton.h */,
 				397586DF1FCB338A0004A74F /* Info.plist */,
+				3908034F1FCB3A9B00D1BC32 /* EPShinyButton.swift */,
 			);
+			name = Classes;
 			path = EPShinyButton;
 			sourceTree = "<group>";
 		};
@@ -148,6 +152,7 @@
 				TargetAttributes = {
 					397586DA1FCB338A0004A74F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					397586E31FCB338A0004A74F = {
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				390803501FCB3A9B00D1BC32 /* EPShinyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +340,7 @@
 		397586F01FCB338A0004A74F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -346,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +362,7 @@
 		397586F11FCB338A0004A74F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -374,6 +383,7 @@
 		397586F31FCB338A0004A74F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +397,7 @@
 		397586F41FCB338A0004A74F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

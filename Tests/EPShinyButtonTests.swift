@@ -2,7 +2,7 @@
 //  EPShinyButtonTests.swift
 //  EPShinyButtonTests
 //
-//  Created by Shingo Yamauchi on 2017/11/27.
+//  Created by 8pockets on 2017/11/27.
 //  Copyright © 2017年 8pockets. All rights reserved.
 //
 
