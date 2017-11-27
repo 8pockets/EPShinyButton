@@ -33,9 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39A56C011FCBA729001EF829 /* EPShinyButtonDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = EPShinyButtonDEMO.app; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMO.app"; sourceTree = "<absolute>"; };
-		39A56C021FCBA729001EF829 /* EPShinyButtonDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOTests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOTests.xctest"; sourceTree = "<absolute>"; };
-		39A56C031FCBA729001EF829 /* EPShinyButtonDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOUITests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOUITests.xctest"; sourceTree = "<absolute>"; };
+		3967A20E1FCCCDE500AE811F /* EPShinyButtonDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPShinyButtonDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3967A20F1FCCCDE500AE811F /* EPShinyButtonDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOTests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOTests.xctest"; sourceTree = "<absolute>"; };
+		3967A2101FCCCDE500AE811F /* EPShinyButtonDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOUITests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOUITests.xctest"; sourceTree = "<absolute>"; };
 		39A56C041FCBA74F001EF829 /* EPShinyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EPShinyButton.swift; path = Classes/EPShinyButton.swift; sourceTree = "<group>"; };
 		39BB06471FCB406B00B5394D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BB06491FCB406B00B5394D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +75,7 @@
 			children = (
 				39BB06461FCB406B00B5394D /* EPShinyButtonDEMO */,
 				39BB06751FCB41CC00B5394D /* Classes */,
+				3967A20E1FCCCDE500AE811F /* EPShinyButtonDEMO.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,7 +117,7 @@
 			);
 			name = EPShinyButtonDEMO;
 			productName = EPShinyButtonDEMO;
-			productReference = 39A56C011FCBA729001EF829 /* EPShinyButtonDEMO.app */;
+			productReference = 3967A20E1FCCCDE500AE811F /* EPShinyButtonDEMO.app */;
 			productType = "com.apple.product-type.application";
 		};
 		39BB06571FCB406B00B5394D /* EPShinyButtonDEMOTests */ = {
@@ -134,7 +135,7 @@
 			);
 			name = EPShinyButtonDEMOTests;
 			productName = EPShinyButtonDEMOTests;
-			productReference = 39A56C021FCBA729001EF829 /* EPShinyButtonDEMOTests.xctest */;
+			productReference = 3967A20F1FCCCDE500AE811F /* EPShinyButtonDEMOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		39BB06621FCB406B00B5394D /* EPShinyButtonDEMOUITests */ = {
@@ -152,7 +153,7 @@
 			);
 			name = EPShinyButtonDEMOUITests;
 			productName = EPShinyButtonDEMOUITests;
-			productReference = 39A56C031FCBA729001EF829 /* EPShinyButtonDEMOUITests.xctest */;
+			productReference = 3967A2101FCCCDE500AE811F /* EPShinyButtonDEMOUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
