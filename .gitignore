@@ -1,0 +1,34 @@
+ldfile
+build/
+DerivedData
+
+# Xcode
+*.pbxuser
+
+*.mode1v3
+*.mode2v3
+
+*.perspectivev3
+
+#settingfile
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+#buildcustom
+xcuserdata
+
+# classfile
+*.moved-aside
+
+# Xcode
+*.xcuserstate
+
+*.xccheckout
+
+# Pods
+Pods
+
+# Mac
+.DS_Store

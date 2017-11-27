@@ -7,182 +7,219 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39BB06271FCB3F8400B5394D /* EPShinyButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */; };
-		39BB062C1FCB3F8400B5394D /* EPShinyButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */; };
-		39BB062E1FCB3F8400B5394D /* EPShinyButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BB06201FCB3F8400B5394D /* EPShinyButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39A56C051FCBA750001EF829 /* EPShinyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A56C041FCBA74F001EF829 /* EPShinyButton.swift */; };
+		39BB06481FCB406B00B5394D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB06471FCB406B00B5394D /* AppDelegate.swift */; };
+		39BB064A1FCB406B00B5394D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BB06491FCB406B00B5394D /* ViewController.swift */; };
+		39BB064D1FCB406B00B5394D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB064B1FCB406B00B5394D /* Main.storyboard */; };
+		39BB064F1FCB406B00B5394D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BB064E1FCB406B00B5394D /* Assets.xcassets */; };
+		39BB06521FCB406B00B5394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BB06501FCB406B00B5394D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39BB06281FCB3F8400B5394D /* PBXContainerItemProxy */ = {
+		39BB06591FCB406B00B5394D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39BB06141FCB3F8400B5394D /* Project object */;
+			containerPortal = 39BB063C1FCB406B00B5394D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 39BB061C1FCB3F8400B5394D;
-			remoteInfo = EPShinyButton;
+			remoteGlobalIDString = 39BB06431FCB406B00B5394D;
+			remoteInfo = EPShinyButtonDEMO;
+		};
+		39BB06641FCB406B00B5394D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39BB063C1FCB406B00B5394D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39BB06431FCB406B00B5394D;
+			remoteInfo = EPShinyButtonDEMO;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EPShinyButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39BB06201FCB3F8400B5394D /* EPShinyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPShinyButton.h; sourceTree = "<group>"; };
-		39BB06211FCB3F8400B5394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EPShinyButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPShinyButtonTests.swift; sourceTree = "<group>"; };
-		39BB062D1FCB3F8400B5394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A56C011FCBA729001EF829 /* EPShinyButtonDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = EPShinyButtonDEMO.app; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMO.app"; sourceTree = "<absolute>"; };
+		39A56C021FCBA729001EF829 /* EPShinyButtonDEMOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOTests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOTests.xctest"; sourceTree = "<absolute>"; };
+		39A56C031FCBA729001EF829 /* EPShinyButtonDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EPShinyButtonDEMOUITests.xctest; path = "/Users/8pockets/lab/swift/EPShinyButton/build/Debug-iphoneos/EPShinyButtonDEMOUITests.xctest"; sourceTree = "<absolute>"; };
+		39A56C041FCBA74F001EF829 /* EPShinyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EPShinyButton.swift; path = Classes/EPShinyButton.swift; sourceTree = "<group>"; };
+		39BB06471FCB406B00B5394D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39BB06491FCB406B00B5394D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39BB064C1FCB406B00B5394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BB064E1FCB406B00B5394D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BB06511FCB406B00B5394D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BB06531FCB406B00B5394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39BB06191FCB3F8400B5394D /* Frameworks */ = {
+		39BB06411FCB406B00B5394D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39BB06231FCB3F8400B5394D /* Frameworks */ = {
+		39BB06551FCB406B00B5394D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BB06271FCB3F8400B5394D /* EPShinyButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06601FCB406B00B5394D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		39BB06131FCB3F8400B5394D = {
+		39BB063B1FCB406B00B5394D = {
 			isa = PBXGroup;
 			children = (
-				39BB061F1FCB3F8400B5394D /* EPShinyButton */,
-				39BB062A1FCB3F8400B5394D /* EPShinyButtonTests */,
-				39BB061E1FCB3F8400B5394D /* Products */,
+				39BB06461FCB406B00B5394D /* EPShinyButtonDEMO */,
+				39BB06751FCB41CC00B5394D /* Classes */,
 			);
 			sourceTree = "<group>";
 		};
-		39BB061E1FCB3F8400B5394D /* Products */ = {
+		39BB06461FCB406B00B5394D /* EPShinyButtonDEMO */ = {
 			isa = PBXGroup;
 			children = (
-				39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */,
-				39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */,
+				39BB06471FCB406B00B5394D /* AppDelegate.swift */,
+				39BB06491FCB406B00B5394D /* ViewController.swift */,
+				39BB064B1FCB406B00B5394D /* Main.storyboard */,
+				39BB064E1FCB406B00B5394D /* Assets.xcassets */,
+				39BB06501FCB406B00B5394D /* LaunchScreen.storyboard */,
+				39BB06531FCB406B00B5394D /* Info.plist */,
 			);
-			name = Products;
+			path = EPShinyButtonDEMO;
 			sourceTree = "<group>";
 		};
-		39BB061F1FCB3F8400B5394D /* EPShinyButton */ = {
+		39BB06751FCB41CC00B5394D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				39BB06201FCB3F8400B5394D /* EPShinyButton.h */,
-				39BB06211FCB3F8400B5394D /* Info.plist */,
+				39A56C041FCBA74F001EF829 /* EPShinyButton.swift */,
 			);
-			path = EPShinyButton;
-			sourceTree = "<group>";
-		};
-		39BB062A1FCB3F8400B5394D /* EPShinyButtonTests */ = {
-			isa = PBXGroup;
-			children = (
-				39BB062B1FCB3F8400B5394D /* EPShinyButtonTests.swift */,
-				39BB062D1FCB3F8400B5394D /* Info.plist */,
-			);
-			path = EPShinyButtonTests;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		39BB061A1FCB3F8400B5394D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39BB062E1FCB3F8400B5394D /* EPShinyButton.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		39BB061C1FCB3F8400B5394D /* EPShinyButton */ = {
+		39BB06431FCB406B00B5394D /* EPShinyButtonDEMO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BB06311FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButton" */;
+			buildConfigurationList = 39BB066C1FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMO" */;
 			buildPhases = (
-				39BB06181FCB3F8400B5394D /* Sources */,
-				39BB06191FCB3F8400B5394D /* Frameworks */,
-				39BB061A1FCB3F8400B5394D /* Headers */,
-				39BB061B1FCB3F8400B5394D /* Resources */,
+				39BB06401FCB406B00B5394D /* Sources */,
+				39BB06411FCB406B00B5394D /* Frameworks */,
+				39BB06421FCB406B00B5394D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EPShinyButton;
-			productName = EPShinyButton;
-			productReference = 39BB061D1FCB3F8400B5394D /* EPShinyButton.framework */;
-			productType = "com.apple.product-type.framework";
+			name = EPShinyButtonDEMO;
+			productName = EPShinyButtonDEMO;
+			productReference = 39A56C011FCBA729001EF829 /* EPShinyButtonDEMO.app */;
+			productType = "com.apple.product-type.application";
 		};
-		39BB06251FCB3F8400B5394D /* EPShinyButtonTests */ = {
+		39BB06571FCB406B00B5394D /* EPShinyButtonDEMOTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 39BB06341FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonTests" */;
+			buildConfigurationList = 39BB066F1FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMOTests" */;
 			buildPhases = (
-				39BB06221FCB3F8400B5394D /* Sources */,
-				39BB06231FCB3F8400B5394D /* Frameworks */,
-				39BB06241FCB3F8400B5394D /* Resources */,
+				39BB06541FCB406B00B5394D /* Sources */,
+				39BB06551FCB406B00B5394D /* Frameworks */,
+				39BB06561FCB406B00B5394D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39BB06291FCB3F8400B5394D /* PBXTargetDependency */,
+				39BB065A1FCB406B00B5394D /* PBXTargetDependency */,
 			);
-			name = EPShinyButtonTests;
-			productName = EPShinyButtonTests;
-			productReference = 39BB06261FCB3F8400B5394D /* EPShinyButtonTests.xctest */;
+			name = EPShinyButtonDEMOTests;
+			productName = EPShinyButtonDEMOTests;
+			productReference = 39A56C021FCBA729001EF829 /* EPShinyButtonDEMOTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39BB06621FCB406B00B5394D /* EPShinyButtonDEMOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BB06721FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMOUITests" */;
+			buildPhases = (
+				39BB065F1FCB406B00B5394D /* Sources */,
+				39BB06601FCB406B00B5394D /* Frameworks */,
+				39BB06611FCB406B00B5394D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39BB06651FCB406B00B5394D /* PBXTargetDependency */,
+			);
+			name = EPShinyButtonDEMOUITests;
+			productName = EPShinyButtonDEMOUITests;
+			productReference = 39A56C031FCBA729001EF829 /* EPShinyButtonDEMOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		39BB06141FCB3F8400B5394D /* Project object */ = {
+		39BB063C1FCB406B00B5394D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = 8pockets;
 				TargetAttributes = {
-					39BB061C1FCB3F8400B5394D = {
+					39BB06431FCB406B00B5394D = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					39BB06251FCB3F8400B5394D = {
+					39BB06571FCB406B00B5394D = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						TestTargetID = 39BB06431FCB406B00B5394D;
+					};
+					39BB06621FCB406B00B5394D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 39BB06431FCB406B00B5394D;
 					};
 				};
 			};
-			buildConfigurationList = 39BB06171FCB3F8400B5394D /* Build configuration list for PBXProject "EPShinyButton" */;
+			buildConfigurationList = 39BB063F1FCB406B00B5394D /* Build configuration list for PBXProject "EPShinyButton" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 39BB06131FCB3F8400B5394D;
-			productRefGroup = 39BB061E1FCB3F8400B5394D /* Products */;
+			mainGroup = 39BB063B1FCB406B00B5394D;
+			productRefGroup = 39BB063B1FCB406B00B5394D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39BB061C1FCB3F8400B5394D /* EPShinyButton */,
-				39BB06251FCB3F8400B5394D /* EPShinyButtonTests */,
+				39BB06431FCB406B00B5394D /* EPShinyButtonDEMO */,
+				39BB06571FCB406B00B5394D /* EPShinyButtonDEMOTests */,
+				39BB06621FCB406B00B5394D /* EPShinyButtonDEMOUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39BB061B1FCB3F8400B5394D /* Resources */ = {
+		39BB06421FCB406B00B5394D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB06521FCB406B00B5394D /* LaunchScreen.storyboard in Resources */,
+				39BB064F1FCB406B00B5394D /* Assets.xcassets in Resources */,
+				39BB064D1FCB406B00B5394D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06561FCB406B00B5394D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39BB06241FCB3F8400B5394D /* Resources */ = {
+		39BB06611FCB406B00B5394D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,33 +229,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		39BB06181FCB3F8400B5394D /* Sources */ = {
+		39BB06401FCB406B00B5394D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BB064A1FCB406B00B5394D /* ViewController.swift in Sources */,
+				39A56C051FCBA750001EF829 /* EPShinyButton.swift in Sources */,
+				39BB06481FCB406B00B5394D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BB06541FCB406B00B5394D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39BB06221FCB3F8400B5394D /* Sources */ = {
+		39BB065F1FCB406B00B5394D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39BB062C1FCB3F8400B5394D /* EPShinyButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39BB06291FCB3F8400B5394D /* PBXTargetDependency */ = {
+		39BB065A1FCB406B00B5394D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 39BB061C1FCB3F8400B5394D /* EPShinyButton */;
-			targetProxy = 39BB06281FCB3F8400B5394D /* PBXContainerItemProxy */;
+			target = 39BB06431FCB406B00B5394D /* EPShinyButtonDEMO */;
+			targetProxy = 39BB06591FCB406B00B5394D /* PBXContainerItemProxy */;
+		};
+		39BB06651FCB406B00B5394D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39BB06431FCB406B00B5394D /* EPShinyButtonDEMO */;
+			targetProxy = 39BB06641FCB406B00B5394D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		39BB064B1FCB406B00B5394D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BB064C1FCB406B00B5394D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39BB06501FCB406B00B5394D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BB06511FCB406B00B5394D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		39BB062F1FCB3F8400B5394D /* Debug */ = {
+		39BB066A1FCB406B00B5394D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +319,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -273,12 +342,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		39BB06301FCB3F8400B5394D /* Release */ = {
+		39BB066B1FCB406B00B5394D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -309,7 +376,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -326,108 +392,139 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		39BB06321FCB3F8400B5394D /* Debug */ = {
+		39BB066D1FCB406B00B5394D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EPShinyButton/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButton;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		39BB06331FCB3F8400B5394D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EPShinyButton/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButton;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		39BB06351FCB3F8400B5394D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonTests;
+				INFOPLIST_FILE = EPShinyButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		39BB06361FCB3F8400B5394D /* Release */ = {
+		39BB066E1FCB406B00B5394D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EPShinyButtonTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonTests;
+				INFOPLIST_FILE = EPShinyButtonDEMO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39BB06701FCB406B00B5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPShinyButtonDEMO.app/EPShinyButtonDEMO";
+			};
+			name = Debug;
+		};
+		39BB06711FCB406B00B5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonDEMOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EPShinyButtonDEMO.app/EPShinyButtonDEMO";
+			};
+			name = Release;
+		};
+		39BB06731FCB406B00B5394D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPShinyButtonDEMO;
+			};
+			name = Debug;
+		};
+		39BB06741FCB406B00B5394D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EPShinyButtonDEMOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.8pockets.EPShinyButtonDEMOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EPShinyButtonDEMO;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39BB06171FCB3F8400B5394D /* Build configuration list for PBXProject "EPShinyButton" */ = {
+		39BB063F1FCB406B00B5394D /* Build configuration list for PBXProject "EPShinyButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39BB062F1FCB3F8400B5394D /* Debug */,
-				39BB06301FCB3F8400B5394D /* Release */,
+				39BB066A1FCB406B00B5394D /* Debug */,
+				39BB066B1FCB406B00B5394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39BB06311FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButton" */ = {
+		39BB066C1FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39BB06321FCB3F8400B5394D /* Debug */,
-				39BB06331FCB3F8400B5394D /* Release */,
+				39BB066D1FCB406B00B5394D /* Debug */,
+				39BB066E1FCB406B00B5394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39BB06341FCB3F8400B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonTests" */ = {
+		39BB066F1FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMOTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39BB06351FCB3F8400B5394D /* Debug */,
-				39BB06361FCB3F8400B5394D /* Release */,
+				39BB06701FCB406B00B5394D /* Debug */,
+				39BB06711FCB406B00B5394D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BB06721FCB406B00B5394D /* Build configuration list for PBXNativeTarget "EPShinyButtonDEMOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BB06731FCB406B00B5394D /* Debug */,
+				39BB06741FCB406B00B5394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 39BB06141FCB3F8400B5394D /* Project object */;
+	rootObject = 39BB063C1FCB406B00B5394D /* Project object */;
 }
