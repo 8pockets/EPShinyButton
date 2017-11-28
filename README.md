@@ -6,9 +6,8 @@
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-yellow.svg)](https://github.com/Carthage/Carthage)
 
 ShinyButton is simple shining UIButton
-------------------
 <p align="center">
-  <img src="https://github.com/8pockets/EPShinyButton/blob/master/docs/demo.gif?raw=true" alt="Icon"/>
+  <img src="https://github.com/8pockets/EPShinyButton/blob/master/docs/demo.gif?raw=true" alt="Icon" width="180"/>
 </p>
 
 License
