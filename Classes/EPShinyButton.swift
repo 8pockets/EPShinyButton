@@ -46,7 +46,6 @@ open class EPShinyButton: UIButton {
             if isHighlighted{
                 
                 UIView.animate(withDuration: animatedScaleDurationWhenHightlighted, animations: {
-//                    self.backgroundColor = self.backgroundColor?.withAlphaComponent(0.8)
                     self.backgroundColor = UIColor(red: 0, green: 0.2, blue: 0.6, alpha: 0.4)
                 })
                 
@@ -66,19 +65,21 @@ open class EPShinyButton: UIButton {
                 
                 let x = CABasicAnimation(keyPath: "position.x")
                 x.duration = shineSpeed
+                x.fromValue = 0
                 x.toValue = self.frame.size.width
                 x.isRemovedOnCompletion = false
                 x.fillMode = kCAFillModeForwards
                 
                 let y = CABasicAnimation(keyPath: "position.y")
                 y.duration = shineSpeed
+                y.fromValue = 0
                 y.toValue = self.frame.size.height
                 y.isRemovedOnCompletion = false
                 y.fillMode = kCAFillModeForwards
                 
                 let fade = CAKeyframeAnimation(keyPath: "opacity")
                 fade.duration = shineSpeed
-                fade.values = [1.0, 0.7, 0.5, 0.3, 0.1]
+                fade.values = [0.7, 0.5, 0.3, 0.1]
                 
                 let ag = CAAnimationGroup()
                 ag.duration = shineSpeed
